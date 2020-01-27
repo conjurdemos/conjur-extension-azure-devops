@@ -1,0 +1,32 @@
+{
+  "name": "conjurtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewCopeland/conjur-extension-azure-devops.git"
+  },
+  "keywords": [
+    "cyberark",
+    "conjur",
+    "secret",
+    "vault"
+  ],
+  "author": "AndrewCopeland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewCopeland/conjur-extension-azure-devops/issues"
+  },
+  "homepage": "https://github.com/AndrewCopeland/conjur-extension-azure-devops#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/q": "^1.5.2"
+  }
+}
